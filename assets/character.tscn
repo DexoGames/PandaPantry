@@ -1,0 +1,31 @@
+[gd_scene load_steps=6 format=3 uid="uid://jf60h0d1a37d"]
+
+[ext_resource type="Script" uid="uid://cclh0q2fgwr7s" path="res://scripts/character.gd" id="1_hv81v"]
+[ext_resource type="Texture2D" uid="uid://dg331mi6b0u1" path="res://art/Christmas.png" id="1_qlsfc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hv81v"]
+atlas = ExtResource("1_qlsfc")
+region = Rect2(0, 0, 640, 640)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2y7e2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hv81v")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_qlsfc"]
+radius = 100.04499
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_hv81v")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_2y7e2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_qlsfc")
