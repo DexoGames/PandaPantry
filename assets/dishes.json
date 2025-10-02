@@ -1,0 +1,56 @@
+[
+  {
+	"name": "Chicken Noodle Soup",
+	"ingredients": [
+	  {"name": "Noodle", "qty": 1},
+	  {"name": "Chicken", "qty": 1},
+	  {"name": "Scallion", "qty": 2},
+	  {"name": "Soy Sauce", "qty": 1},
+	  {"name": "Broth", "qty": 2}
+	],
+	"description": "Light and comforting soup with tender chicken and noodles.",
+	"rarity": "common",
+	"difficulty": 3
+  },
+  {
+	"name": "Fried Rice",
+	"ingredients": [
+	  {"name": "Rice", "qty": 1},
+	  {"name": "Egg", "qty": 1},
+	  {"name": "Soy Sauce", "qty": 1},
+	  {"name": "Sesame Oil", "qty": 1},
+	  {"name": "Scallion", "qty": 1}
+	],
+	"description": "Wok-fried rice with eggs and a savory touch of sesame.",
+	"rarity": "common",
+	"difficulty": 4
+  },
+  {
+	"name": "Miso Soup",
+	"ingredients": [
+	  {"name": "Tofu", "qty": 1},
+	  {"name": "Seaweed", "qty": 1},
+	  {"name": "Scallion", "qty": 2},
+	  {"name": "Broth", "qty": 2}
+	],
+	"description": "Traditional Japanese soup with tofu and seaweed.",
+	"rarity": "uncommon",
+	"difficulty": 5
+  },
+	{
+	  "name": "Dragon Chicken Stir-Fry",
+	  "ingredients": [
+		{"name": "Chicken", "qty": 1},
+		{"name": "Noodle", "qty": 1},
+		{"name": "Bell Pepper", "qty": 2},
+		{"name": "Shiitake Mushroom", "qty": 2},
+		{"name": "Scallion", "qty": 2},
+		{"name": "Soy Sauce", "qty": 1},
+		{"name": "Sesame Oil", "qty": 1},
+		{"name": "Ginger", "qty": 1}
+	  ],
+	  "description": "A vibrant stir-fry with tender chicken, mushrooms, and a kick of ginger.",
+	  "rarity": "rare",
+	  "difficulty": 8
+	}
+]

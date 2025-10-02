@@ -1,0 +1,15 @@
+[
+  {"name": "Noodle", "price": 1.0, "life": 7},
+  {"name": "Chicken", "price": 3.0, "life": 3},
+  {"name": "Scallion", "price": 0.5, "life": 5},
+  {"name": "Soy Sauce", "price": 0.2, "life": 365},
+  {"name": "Egg", "price": 0.8, "life": 14},
+  {"name": "Rice", "price": 0.5, "life": 180},
+  {"name": "Tofu", "price": 1.2, "life": 7},
+  {"name": "Seaweed", "price": 0.3, "life": 90},
+  {"name": "Sesame Oil", "price": 0.4, "life": 365},
+  {"name": "Broth", "price": 1.5, "life": 2},
+  {"name": "Bell Pepper", "price": 1.0, "life": 5},
+  {"name": "Shiitake Mushroom", "price": 2.0, "life": 7},
+  {"name": "Ginger", "price": 0.5, "life": 14}
+]

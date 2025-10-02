@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://dtjy5s64d3qfu"]
+
+[ext_resource type="Script" uid="uid://b6e6spl2thew4" path="res://scripts/workstation.gd" id="1_4d04n"]
+[ext_resource type="Texture2D" uid="uid://ctc88dpxh4em6" path="res://art/Boxes.png" id="2_ifvmo"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3l2j4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_ifvmo")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Workstation" type="Node2D"]
+script = ExtResource("1_4d04n")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 100.0
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+offset_left = -183.0
+offset_top = -227.0
+offset_right = 186.0
+offset_bottom = -173.0
+max_value = 1.0
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_3l2j4")

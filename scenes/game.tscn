@@ -1,16 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://dog4b2kbixn7y"]
+[gd_scene load_steps=2 format=3 uid="uid://dog4b2kbixn7y"]
 
-[ext_resource type="PackedScene" uid="uid://jf60h0d1a37d" path="res://assets/character.tscn" id="1_uwrxv"]
-
-[sub_resource type="GDScript" id="GDScript_uwrxv"]
-script/source = "extends CharacterBody2D
-"
+[ext_resource type="PackedScene" uid="uid://dtjy5s64d3qfu" path="res://assets/workstation.tscn" id="1_uwrxv"]
 
 [node name="Game" type="Node2D"]
 
-[node name="Character" parent="." instance=ExtResource("1_uwrxv")]
-position = Vector2(1.0000019, -38)
-scale = Vector2(0.1667885, 0.1667885)
-script = SubResource("GDScript_uwrxv")
-
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Workstation" parent="." instance=ExtResource("1_uwrxv")]
