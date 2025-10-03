@@ -1,9 +1,10 @@
-extends Node
+class_name Workstation extends Node
 
 @onready var timer : Timer = $Timer
 @onready var progress = $ProgressBar
 var active := false
 var actionTime := 60
+var dish : Dish = null
 
 func setActive(boo: bool):
 	active = boo

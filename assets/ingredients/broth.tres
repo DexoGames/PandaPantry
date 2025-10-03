@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://dg0q8oex72hqt"]
+
+[ext_resource type="Script" uid="uid://dtg48x0lu0u5a" path="res://scripts/Ingredient.gd" id="1_asnfo"]
+
+[resource]
+script = ExtResource("1_asnfo")
+name = "Broth"
+basePrice = 0.1
+life = 365
+metadata/_custom_type_script = "uid://dtg48x0lu0u5a"

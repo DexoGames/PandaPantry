@@ -1,2 +1,1 @@
-extends Node
-class_name Game
+class_name Game extends Node

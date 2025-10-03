@@ -1,5 +1,4 @@
-extends Resource
-class_name Ingredient
+class_name Ingredient extends Resource
 
 @export var name : String
 @export var basePrice : float

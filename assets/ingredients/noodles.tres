@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://cf0u55552lgyv"]
+
+[ext_resource type="Script" uid="uid://dtg48x0lu0u5a" path="res://scripts/Ingredient.gd" id="1_x02vs"]
+
+[resource]
+script = ExtResource("1_x02vs")
+name = "Noodles"
+basePrice = 0.5
+life = 30
+metadata/_custom_type_script = "uid://dtg48x0lu0u5a"

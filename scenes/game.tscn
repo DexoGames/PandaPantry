@@ -1,9 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://dog4b2kbixn7y"]
+[gd_scene load_steps=3 format=3 uid="uid://dog4b2kbixn7y"]
 
-[ext_resource type="PackedScene" uid="uid://dtjy5s64d3qfu" path="res://assets/workstation.tscn" id="1_uwrxv"]
+[ext_resource type="PackedScene" uid="uid://dj38yda4arsm5" path="res://prefabs/prepTable.tscn" id="2_yqjtg"]
+
+[sub_resource type="TileSet" id="TileSet_uwrxv"]
 
 [node name="Game" type="Node2D"]
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
-[node name="Workstation" parent="." instance=ExtResource("1_uwrxv")]
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_set = SubResource("TileSet_uwrxv")
+
+[node name="PrepTable" parent="TileMapLayer" instance=ExtResource("2_yqjtg")]

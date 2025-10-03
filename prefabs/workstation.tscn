@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://dtjy5s64d3qfu"]
 
-[ext_resource type="Script" uid="uid://b6e6spl2thew4" path="res://scripts/workstation.gd" id="1_4d04n"]
+[ext_resource type="Script" uid="uid://b6e6spl2thew4" path="res://scripts/Workstation.gd" id="1_4d04n"]
 [ext_resource type="Texture2D" uid="uid://ctc88dpxh4em6" path="res://art/Boxes.png" id="2_ifvmo"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_3l2j4"]

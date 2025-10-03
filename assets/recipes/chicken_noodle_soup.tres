@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="Recipe" load_steps=9 format=3 uid="uid://8oopdu448j2o"]
+
+[ext_resource type="Script" uid="uid://gnbal5tsfjc1" path="res://scripts/Quantity.gd" id="1_s5yy6"]
+[ext_resource type="Resource" uid="uid://bi3jhmex0ikj8" path="res://assets/ingredients/chicken.tres" id="2_8locp"]
+[ext_resource type="Script" uid="uid://dh07x6iyeaytd" path="res://scripts/Recipe.gd" id="2_iftpg"]
+[ext_resource type="Resource" uid="uid://cf0u55552lgyv" path="res://assets/ingredients/noodles.tres" id="3_8locp"]
+[ext_resource type="Resource" uid="uid://dg0q8oex72hqt" path="res://assets/ingredients/broth.tres" id="4_qaduf"]
+
+[sub_resource type="Resource" id="Resource_qaduf"]
+script = ExtResource("1_s5yy6")
+ingredient = ExtResource("2_8locp")
+quantity = 2
+metadata/_custom_type_script = "uid://gnbal5tsfjc1"
+
+[sub_resource type="Resource" id="Resource_jbvf3"]
+script = ExtResource("1_s5yy6")
+ingredient = ExtResource("3_8locp")
+quantity = 1
+metadata/_custom_type_script = "uid://gnbal5tsfjc1"
+
+[sub_resource type="Resource" id="Resource_c6c0s"]
+script = ExtResource("1_s5yy6")
+ingredient = ExtResource("4_qaduf")
+quantity = 1
+metadata/_custom_type_script = "uid://gnbal5tsfjc1"
+
+[resource]
+script = ExtResource("2_iftpg")
+name = "Chicken Noodle Soup"
+ingredients = Array[ExtResource("1_s5yy6")]([SubResource("Resource_qaduf"), SubResource("Resource_jbvf3"), SubResource("Resource_c6c0s")])
+metadata/_custom_type_script = "uid://dh07x6iyeaytd"
